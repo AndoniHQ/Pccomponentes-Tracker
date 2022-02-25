@@ -11,7 +11,7 @@ Aviso mediante canal de Discord
 ![alt text](https://github.com/AndoniHQ/pccomponentes-tracker/blob/master/imgs/Discord.png?raw=true)
 
 Aviso mediante mensajes de correo
-![alt text](https://github.com/AndoniHQ/pccomponentes-tracker/master/imgs/Mail.png?raw=true)
+![alt text](https://github.com/AndoniHQ/pccomponentes-tracker/blob/master/imgs/Mail.png?raw=true)
 
 ## Autor ✒️
 
