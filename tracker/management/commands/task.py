@@ -28,11 +28,11 @@ class Command(BaseCommand):
                 item_discount.discount_price = f'DESCUENTO! El precio es {data["last_price"]}'
                 item_discount.save()
 
-                gmail_user = 'andonideals@gmail.com'
-                gmail_password = 'ref.8024'
+                gmail_user = ''
+                gmail_password = ''
 
                 sent_from = gmail_user
-                to = ['andonimola98@gmail.com']
+                to = ['']
                 subject = 'BAJADA DE PRECIO - ' + item.title
                 body = 'PRECIO: ' + str(item.last_price) + '\n' + 'Link: ' + item.url + '\n'
 
