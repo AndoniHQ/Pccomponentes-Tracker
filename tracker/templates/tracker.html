@@ -1,0 +1,34 @@
+  
+{% extends 'base.html' %}
+
+{% block content %}
+<form action="{{ url }}" method="POST">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button class="btn btn-primary" type="submit">Send</button>
+</form>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Title</th>
+        <th scope="col">Average Price</th>
+        <th scope="col">Last Price</th>
+        <th scope="col">Sin IVA</th>
+        <th scope="col">Discount Price</th>
+        <th scope="col">Date Created</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for item in items %}
+      <tr>
+        <td><a href="{{item.url}}" target="_blank">{{item.title}}</a></td>
+        <td>{{item.average_price}}</td>
+        <td>{{item.last_price}}</td>
+        <td>{{item.no_iva}}</td>
+        <td>{{item.discount_price}}</td>
+        <td>{{item.date}}</td>
+      </tr>
+    {% endfor %}  
+    </tbody>
+  </table>
+  {% endblock %}  
