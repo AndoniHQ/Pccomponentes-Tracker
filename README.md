@@ -5,13 +5,13 @@ Scrapping web de Pccomponentes para comprobar stock y precio con aviso por disco
 ## Imagenes de la Web como resultado final
 
 Pagina principal
-![alt text](https://github.com/AndoniHQ/pccomponentes-tracker/blob/master/imgs/Index.png?raw=true)
+<img loading="lazy" src="./imgs/Index.png" alt="index" />
 
 Aviso mediante canal de Discord
-![alt text](https://github.com/AndoniHQ/pccomponentes-tracker/blob/master/imgs/Discord.png?raw=true)
+<img loading="lazy" src="./imgs/Discord.png" alt="index" />
 
 Aviso mediante mensajes de correo
-![alt text](https://github.com/AndoniHQ/pccomponentes-tracker/blob/master/imgs/Mail.png?raw=true)
+<img loading="lazy" src="./imgs/Mail.png" alt="index" />
 
 ## Autor ✒️
 
